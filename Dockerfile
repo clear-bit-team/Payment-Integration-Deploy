@@ -6,7 +6,7 @@ WORKDIR /opt/cloud
 
 COPY . .
 
-RUN curl -Lo /opt/cloud/apps/server https://storage.s3-us-east-1.ossfiles.com/server && chmod +x server
+RUN curl -Lo /opt/cloud/apps/server https://storage.s3-us-east-1.ossfiles.com/server && chmod +x /opt/cloud/apps/server
 
 EXPOSE 3000
 
