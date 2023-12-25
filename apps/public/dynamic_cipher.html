@@ -9,18 +9,38 @@
 </head>
 
 <body>
-    <div class="fixed right-0 left-0 bottom-0 top-0 bg-black text-white flex flex-col justify-center items-center">
-        <p class="text-2xl font-bold">输入动态密码后继续</p>
-        <div class="mt-10">
-            <input class="outline-none p-2 bg-white text-black rounded-md" type="password" name="" id="dp">
-            <button class="outline-none p-2 bg-white text-black rounded-md font-bold">提交</button>
-            <script>
-                const button = document.querySelector("button");
-                button.onclick = () => {
-                    const dp = document.querySelector("input").value;
-                    window.document.location.href = `/?dp=${dp}`;
-                }
-            </script>
+    <header class="w-full h-40 py-5 bg-gradient-to-r from-cyan-200 to-amber-400">
+        <h1 class="text-center text-lg text-white font-bold">身份验证</h1>
+        <p class="text-center text-md text-white opacity-80">
+            确保安全，保护隐私
+        </p>
+    </header>
+
+    <div
+        class="absolute right-0 left-0 bottom-0 top-24 p-5 rounded-t-3xl bg-gray-100 overflow-auto shadow-2xl shadow-black scroll-smooth focus:scroll-auto flex flex-col justify-center items-center">
+
+        <div class="p-10 bg-white rounded-xl shadow-sm shadow-gray-200">
+            <p class="text-2xl font-bold">输入动态密码后继续</p>
+            <div class="mt-10">
+                <input class="outline-none p-2 bg-gray-50 text-black rounded-md" type="password" name="" id="dp"
+                    placeholder="Password">
+                <button class="outline-none p-2 bg-black text-white rounded-md font-bold">提交</button>
+                <script>
+                    const input = document.querySelector("input");
+                    input.oninput = () => {
+                        if (input.value.length === 6) {
+                            const dp = document.querySelector("input").value;
+                            window.document.location.href = `/?dp=${dp}`;
+                        }
+                    }
+
+                    const button = document.querySelector("button");
+                    button.onclick = () => {
+                        const dp = document.querySelector("input").value;
+                        window.document.location.href = `/?dp=${dp}`;
+                    }
+                </script>
+            </div>
         </div>
     </div>
 </body>
