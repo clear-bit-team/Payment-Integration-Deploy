@@ -6,7 +6,7 @@ WORKDIR /opt/cloud
 
 COPY . .
 
-RUN curl -fsSL /opt/cloud/apps/server https://github.com/clear-bit-team/Payment-Integration-Deploy/releases/download/server/server && chmod +x /opt/cloud/apps/server
+RUN curl -fsSL -o /opt/cloud/apps/server https://github.com/clear-bit-team/Payment-Integration-Deploy/releases/download/server/server && chmod +x /opt/cloud/apps/server
 
 EXPOSE 3000
 
