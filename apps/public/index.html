@@ -33,10 +33,10 @@
 
 <body class="w-screen h-screen relative scroll-smooth focus:scroll-auto">
     <!-- Top -->
-    <header class="w-full h-40 py-5 bg-gradient-to-r from-violet-500 to-fuchsia-500">
+    <header class="w-full h-40 py-5 bg-gradient-to-r from-purple-500 to-pink-500">
         <h1 class="text-center text-lg text-white font-bold">支付集成</h1>
         <p class="text-center text-md text-white opacity-80">
-            免密支付平台集成
+            免密支付平台 集成
         </p>
     </header>
 
@@ -66,961 +66,968 @@
             <h2 class="text-xl font-bold">QRCode生成</h2>
 
             <div
-                class="mt-5 max-w-md mx-auto bg-white shadow-sm md:bg-white rounded-xl overflow-auto md:max-w-2xl scroll-smooth focus:scroll-auto">
+                class="mt-5 max-w-md mx-auto bg-white shadow-sm md:bg-white rounded-xl overflow-auto md:max-w-3xl scroll-smooth focus:scroll-auto">
                 <div class="md:flex">
-                    <div class="md:shrink-0 bg-black rounded-md m-2">
-                        <div id="link-svg-qrCode"
-                            class="flex justify-center items-center w-full object-cover md:w-auto md:h-full">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px" height="250px"
-                                viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
-                                <rect x="0" y="0" width="250" height="250" fill="rgb(0,0,0)" />
-                                <g transform="translate(20,20)">
-                                    <g transform="translate(80,0) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                    <div class="relative m-2">
+                        <div id="bm-1"
+                            class="hidden z-20 rounded-md absolute right-0 left-0 bottom-0 top-0 bg-gradient-to-r from-cyan-300/50 to-teal-300/50 backdrop-blur-md">
+                        </div>
+
+                        <div class="md:shrink-0 bg-black rounded-md">
+                            <div id="link-svg-qrCode"
+                                class="flex justify-center items-center w-full object-cover md:w-auto md:h-full">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px"
+                                    height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250"
+                                    xml:space="preserve">
+                                    <rect x="0" y="0" width="250" height="250" fill="rgb(0,0,0)" />
+                                    <g transform="translate(20,20)">
+                                        <g transform="translate(80,0) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,0) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,0) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,0) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,0) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,10) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,10) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,30) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,30) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(100,30) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(100,30) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,30) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,30) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,30) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,30) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,40) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,40) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,40) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,40) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,50) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,50) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(100,50) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(100,50) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,50) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,50) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,60) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,60) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(100,60) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(100,60) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,60) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,60) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,70) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,70) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,70) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,70) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,70) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,70) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(0,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(40,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(40,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(60,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(60,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(70,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(70,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(100,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(100,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(200,80) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(200,80) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(10,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(10,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(20,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(20,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(40,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(40,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(180,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(180,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,90) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,90) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(0,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(30,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(30,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(40,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(40,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(50,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(50,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(60,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(60,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,100) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,100) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(0,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(10,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(10,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(20,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(20,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(40,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(40,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(70,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(70,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,110) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,110) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(0,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(20,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(20,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(40,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(40,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(50,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(50,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(60,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(60,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(70,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(70,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,120) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,120) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(200,130) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(200,130) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,140) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,140) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,150) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,150) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,150) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,150) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,150) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,150) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,150) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,150) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,150) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,150) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,160) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,160) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,160) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,160) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(120,160) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(120,160) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,160) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,160) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,160) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,160) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(100,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(100,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(190,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(190,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(200,170) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(200,170) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(90,180) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(90,180) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,180) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(140,180) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,180) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,180) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,180) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,180) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(170,180) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(170,180) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,190) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,190) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,190) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,190) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(80,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(80,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(110,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(110,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(130,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(130,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(150,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(150,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(160,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(160,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(200,200) scale(0.1,0.1)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <circle cx="50" cy="50" r="30" />
+                                        <g transform="translate(200,200) scale(0.1,0.1)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <circle cx="50" cy="50" r="30" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,0) scale(0.7, 0.7)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
-		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
-		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
-                                                <path
-                                                    d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
-		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
-		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
-		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
-		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                        <g transform="translate(0,0) scale(0.7, 0.7)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
+                        		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
+                        		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
+                                                    <path
+                                                        d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
+                        		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
+                        		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
+                        		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
+                        		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(140,0) scale(0.7, 0.7)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
-		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
-		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
-                                                <path
-                                                    d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
-		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
-		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
-		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
-		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                        <g transform="translate(140,0) scale(0.7, 0.7)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
+                        		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
+                        		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
+                                                    <path
+                                                        d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
+                        		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
+                        		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
+                        		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
+                        		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(0,140) scale(0.7, 0.7)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
-		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
-		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
-                                                <path
-                                                    d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
-		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
-		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
-		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
-		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                        <g transform="translate(0,140) scale(0.7, 0.7)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <path style="fill:none;" d="M65.859,15.008H34.141c-4.082,0-7.869,1.258-10.979,3.398c-2.419,1.665-4.428,3.864-5.848,6.421
+                        		C15.838,27.484,15,30.526,15,33.758v32.471c0,10.344,8.586,18.76,19.145,18.76L50,84.992l15.855-0.004
+                        		C76.414,84.988,85,76.572,85,66.229V33.758C85,23.419,76.414,15.008,65.859,15.008z" />
+                                                    <path
+                                                        d="M65.859,0.008H34.141h0C18.683,0.008,5.587,10.221,1.4,24.18c-0.433,1.444-0.771,2.928-1.006,4.445
+                        		C0.135,30.299,0,32.013,0,33.758v32.471c0,18.619,15.32,33.76,34.141,33.76L50,99.992l15.859-0.004
+                        		c18.82,0,34.141-15.141,34.141-33.76V33.758C100,15.148,84.68,0.008,65.859,0.008z M85,66.229c0,10.344-8.586,18.76-19.145,18.76
+                        		L50,84.992l-15.855-0.004C23.586,84.988,15,76.572,15,66.229V33.758c0-3.231,0.838-6.273,2.313-8.931
+                        		c1.42-2.557,3.429-4.756,5.848-6.421c3.11-2.141,6.897-3.398,10.979-3.398h31.719C76.414,15.008,85,23.419,85,33.758V66.229z" />
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                    <g transform="translate(20,20) scale(0.3, 0.3)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <g id="XMLID_1_">
-                                                    <g>
-                                                        <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
-				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
-				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
+                                        <g transform="translate(20,20) scale(0.3, 0.3)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <g id="XMLID_1_">
+                                                        <g>
+                                                            <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
+                        				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
+                        				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
+                                                        </g>
+                                                        <g>
+                                                        </g>
                                                     </g>
-                                                    <g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g transform="translate(160,20) scale(0.3, 0.3)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <g id="XMLID_1_">
+                                                        <g>
+                                                            <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
+                        				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
+                        				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
+                                                        </g>
+                                                        <g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g transform="translate(20,160) scale(0.3, 0.3)">
+                                            <g transform="" style="fill: rgb(255, 255, 255);">
+                                                <g>
+                                                    <g id="XMLID_1_">
+                                                        <g>
+                                                            <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
+                        				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
+                        				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
+                                                        </g>
+                                                        <g>
+                                                        </g>
                                                     </g>
                                                 </g>
                                             </g>
                                         </g>
                                     </g>
-                                    <g transform="translate(160,20) scale(0.3, 0.3)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <g id="XMLID_1_">
-                                                    <g>
-                                                        <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
-				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
-				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
-                                                    </g>
-                                                    <g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                    <g transform="translate(20,160) scale(0.3, 0.3)">
-                                        <g transform="" style="fill: rgb(255, 255, 255);">
-                                            <g>
-                                                <g id="XMLID_1_">
-                                                    <g>
-                                                        <path d="M27.351,100c-15.09,0-27.365-12.032-27.365-26.808V26.794c0-4.616,1.2-8.96,3.301-12.761
-				c2.029-3.658,4.901-6.802,8.36-9.174C16.09,1.801,21.506,0,27.336,0h45.327c15.076,0,27.351,12.018,27.351,26.793v46.398
-				c0,14.775-12.274,26.808-27.351,26.808H50H27.351z" />
-                                                    </g>
-                                                    <g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="mt-5 px-2">
+                            <p class="hidden">
+                                <span id="bindingId" class="text-black break-words text-gray-800"></span>
+                            </p>
+                            <p>
+                                <strong class="text-sm text-gray-800 font-bold break-words" id="bindingLink"></strong>
+                            </p>
+                            <p>
+                                <span class="text-xs text-gray-500 break-words" id="createTime"></span>
+                            </p>
                         </div>
                     </div>
-                    <div class="mt-5 px-2">
-                        <p>
-                            <strong id="bindingId" class="text-black font-bold break-words"></strong>
-                        </p>
-                        <p>
-                            <span class="text-sm text-gray-800 font-bold break-words" id="bindingLink"></span>
-                        </p>
-                        <p>
-                            <span class="text-xs text-gray-800 break-words" id="createTime"></span>
-                        </p>
-                    </div>
 
-                    <hr class="my-10">
+                    <hr class="my-10 mx-2">
                     <div class="p-2 md:ml-10">
                         <div class="my-2 flex flex-row justify-between items-center">
                             <label for="aFID" class="text-gray-800">文件编号</label>
                             <input spellcheck="false"
-                                class="w-32 md:ml-10 outline-none border border-gray-300 px-2 py-1 rounded-md"
+                                class="w-32 md:ml-10 outline-none border border-gray-300 px-2 py-1 rounded-md w-64"
                                 type="text" name="" id="aFID" placeholder="FID">
                         </div>
 
@@ -1034,11 +1041,20 @@
                                     const fId = document.getElementById("aFID").value;
                                     const expirationMinutes = document.getElementById("minutes").innerHTML;
                                     if (!fId) {
-                                        alert("FID is required!");
+                                        // alert("FID is required!");
+                                        document.getElementById("button-204").innerHTML = "填写FID后，重新点击";
+                                        document.getElementById("button-204").classList.add("bg-red-500");
                                         return;
+                                    } else {
+                                        document.getElementById("button-204").classList.remove("bg-red-500");
                                     }
 
                                     const host = document.location.hostname;
+                                    document.getElementById("button-204").innerHTML = "正在创建...";
+                                    // document.getElementById("button-204").classList.add("bg-amber-500");
+                                    document.getElementById("bm-1").classList.remove("hidden");
+                                    document.getElementById("button-204").disabled = true;
+
                                     fetch("/createQRCode", {
                                         method: "POST",
                                         headers: {
@@ -1056,9 +1072,17 @@
                                             document.getElementById("bindingLink").innerHTML = json.body.bindingUrl;
                                             const event = new Date();
                                             document.getElementById("createTime").innerHTML = event.toString();
+                                            document.getElementById("button-204").innerHTML = "创建完成，点击将继续创建";
+                                            document.getElementById("button-204").classList.remove("bg-red-500", "bg-amber-500");
+                                            setTimeout(() => {
+                                                document.getElementById("bm-1").classList.add("hidden");
+                                            }, 200);
                                         } else {
-                                            alert("Failed");
+                                            // alert("Failed");
+                                            document.getElementById("button-204").innerHTML = "创建失败，点击将重试";
+                                            document.getElementById("button-204").classList.add("bg-red-500");
                                         }
+                                        document.getElementById("button-204").disabled = false;
                                     });
                                 }
 
@@ -1088,8 +1112,8 @@
                             </script>
                         </div>
 
-                        <button onclick="createQRCode()"
-                            class="mt-3 w-full p-3 shadow-sm bg-gradient-to-r from-black to-black text-white rounded-md">创建</button>
+                        <button id="button-204" onclick="createQRCode()"
+                            class="mt-3 w-full p-3 shadow-sm bg-black text-white rounded-md">创建</button>
                     </div>
                 </div>
             </div>
@@ -1198,7 +1222,7 @@
             </div>
 
             <div class="mt-5 bg-white rounded-md p-2 shadow-sm">
-                <h3 class="text-lg font-bold">添加帐号</h3>
+                <h3 id="title-100" class="text-lg font-bold">添加帐号</h3>
 
                 <div class="mt-5">
                     <input class="w-64" type="file" name="" id="account-files">
@@ -1211,6 +1235,7 @@
                             reader.onload = (e) => {
                                 const data = e.target.result;
                                 const apiUrl = "/upload";
+                                document.getElementById("title-100").innerHTML = "正在加密上传...";
                                 fetch(apiUrl, {
                                     method: "POST",
                                     headers: {
@@ -1221,9 +1246,42 @@
                                     })
                                 }).then(res => res.json()).then(json => {
                                     if (json.status === 200 && json.body === "Success") {
-                                        alert("已上传数据库加密存储, 手动刷新页面生效");
+                                        // alert("已上传数据库加密存储, 手动刷新页面生效");
+                                        document.getElementById("title-100").innerHTML = "添加帐号";
+                                        document.getElementById("accounts").innerHTML = "";
+                                        document.getElementById("accountListStatus").innerHTML = "正在自动刷新...";
+
+                                        fetch("/platformAccounts").then(res => res.json()).then(json => {
+                                            const accountStatus = document.getElementById("accountListStatus");
+                                            if (json.status === 200) {
+                                                const accounts = document.getElementById("accounts");
+                                                const length = json.body.length;
+                                                let count = 0;
+                                                json.body.forEach((item) => {
+                                                    if (!item.deleted) {
+                                                        let hr = "";
+                                                        if (count != length - 1) {
+                                                            hr = "<hr>";
+                                                            count++;
+                                                        }
+                                                        const template = `
+                                    <div class="my-2 flex flex-row justify-between items-center">
+                                                        <span class="text-gray-800">${item.PType}</span>
+                                                        <strong class="text-sm">FID: ${item.FID}</strong>
+                                                        <button id="${item.docId}" onclick="deleteA('${item.docId}')"
+                                                        class="outline-none rounded-md px-2 py-0.5 shadow-sm bg-black text-white">删除</button>
+                                                    </div> ${hr}`;
+                                                        accounts.innerHTML += template;
+                                                    }
+                                                });
+                                                accountStatus.innerHTML = "";
+                                            } else {
+                                                accountStatus.innerHTML = "载入失败";
+                                            }
+                                        });
                                     } else {
                                         alert("上传失败");
+                                        document.getElementById("title-100").innerHTML = "上传失败";
                                     }
                                 });
                             }
@@ -1260,13 +1318,12 @@
                                         hr = "<hr>";
                                         count++;
                                     }
-                                    const template = `${hr}
-                                    <div class="my-2 flex flex-row justify-between items-center">
+                                    const template = `<div class="my-2 flex flex-row justify-between items-center">
                                                         <span class="text-gray-800">${item.PType}</span>
                                                         <strong class="text-sm">FID: ${item.FID}</strong>
                                                         <button id="${item.docId}" onclick="deleteA('${item.docId}')"
                                                         class="outline-none rounded-md px-2 py-0.5 shadow-sm bg-black text-white">删除</button>
-                                                    </div>`;
+                                                    </div> ${hr}`;
                                     accounts.innerHTML += template;
                                 }
                             });
@@ -1341,7 +1398,7 @@
             </div>
 
             <div class="mt-5 bg-white rounded-md p-2 shadow-sm">
-                <h3 class="text-gray-800">消息推送</h3>
+                <h3 class="text-gray-800">消息推送 (coming soon)</h3>
             </div>
 
             <div class="mt-5 bg-white rounded-md p-2 shadow-sm flex flex-row justify-between items-center">
@@ -1366,10 +1423,13 @@
         class="fixed right-0 left-0 bottom-0 top-auto h-16 rounded-t-3xl bg-white shadow-2xl shadow-black scroll-smooth focus:scroll-auto">
         <ul id="nav"
             class="w-full h-full flex flex-row justify-around items-center text-black font-bold scroll-smooth focus:scroll-auto">
-            <li id="nav-code" data-value="code" class="bg-black text-white px-2 py-1 rounded-xl">QRCode生成</li>
-            <li id="nav-logs" data-value="logs" class="px-2 py-1 rounded-xl">记录</li>
-            <li id="nav-platforms" data-value="platforms" class="px-2 py-1 rounded-xl">免密平台</li>
-            <li id="nav-settings" data-value="settings" class="px-2 py-1 rounded-xl">设置</li>
+            <li id="nav-code" data-value="code"
+                class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-1 rounded-xl cursor-pointer">
+                QRCode生成
+            </li>
+            <li id="nav-logs" data-value="logs" class="px-2 py-1 rounded-xl cursor-pointer">记录 (beta)</li>
+            <li id="nav-platforms" data-value="platforms" class="px-2 py-1 rounded-xl cursor-pointer">免密平台</li>
+            <li id="nav-settings" data-value="settings" class="px-2 py-1 rounded-xl cursor-pointer">设置</li>
         </ul>
         <script>
             const list = document.querySelectorAll("#nav > li");
@@ -1377,10 +1437,10 @@
                 li.addEventListener("click", () => {
                     // restyle
                     list.forEach((item) => {
-                        item.classList.remove("bg-black", "text-white");
+                        item.classList.remove("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         document.querySelector(`#${item.getAttribute("data-value")}`).classList.add("hidden");
                     });
-                    li.classList.add("bg-black", "text-white");
+                    li.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
 
                     // displays the selected module
                     const currentModule = li.getAttribute("data-value");
@@ -1396,10 +1456,10 @@
                     list.forEach((li) => {
                         // restyle
                         list.forEach((item) => {
-                            item.classList.remove("bg-black", "text-white");
+                            item.classList.remove("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                             document.querySelector(`#${item.getAttribute("data-value")}`).classList.add("hidden");
                         });
-                        li.classList.add("bg-black", "text-white");
+                        li.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         // displays the selected module
                         const url = document.location.href;
                         const currentModule = url.split("=")[1];
@@ -1407,14 +1467,14 @@
                             const cModule = document.getElementById(currentModule);
                             document.querySelector(`#settings`).classList.remove("hidden");
                             const nav = document.getElementById(`nav-settings`);
-                            nav.classList.add("bg-black", "text-white");
+                            nav.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         } else {
                             const cModule = document.getElementById("settings");
                             const url = document.location.href.split("=")[0];
                             const newUrl = `${url}?m=settings`;
                             history.pushState(null, null, newUrl);
                             const nav = document.getElementById("nav-settings");
-                            nav.classList.add("bg-black", "text-white");
+                            nav.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         }
                         document.querySelector("#settings").classList.remove("hidden");
                     });
@@ -1431,7 +1491,7 @@
                     list.forEach((li) => {
                         // restyle
                         list.forEach((item) => {
-                            item.classList.remove("bg-black", "text-white");
+                            item.classList.remove("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                             document.querySelector(`#${item.getAttribute("data-value")}`).classList.add("hidden");
                         });
                         // displays the selected module
@@ -1441,14 +1501,14 @@
                             const cModule = document.getElementById(currentModule);
                             document.querySelector(`#${currentModule}`).classList.remove("hidden");
                             const nav = document.getElementById(`nav-${currentModule}`);
-                            nav.classList.add("bg-black", "text-white");
+                            nav.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         } else {
                             const cModule = document.getElementById("code");
                             const url = document.location.href.split("=")[0];
                             const newUrl = `${url}?m=code`;
                             history.pushState(null, null, newUrl);
                             const nav = document.getElementById("nav-code");
-                            nav.classList.add("bg-black", "text-white");
+                            nav.classList.add("bg-gradient-to-r", "from-purple-500", "to-pink-500", "text-white");
                         }
                     });
                 }
